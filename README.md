@@ -18,21 +18,20 @@ Docker installed on your machine.
 Jenkins setup for CI/CD pipeline.
 GitHub account to access the repository.
 # How to Run
-Clone the repository:
-
+1- Clone the repository:
 ``` bash
 git clone https://github.com/yourusername/welcom.git
 ```
-Build the Docker image:
-
-bash
+2- Build the Docker image:
+``` bash
 Copy code
 docker build -t welcom .
-Run the Docker container:
-
-bash
+```
+3- Run the Docker container:
+```bash
 Copy code
 docker run -d -p 8080:80 welcom
+```
 Open your browser and go to http://localhost:8080 to see the app in action.
 
 # Jenkins Setup
