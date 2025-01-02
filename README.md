@@ -5,6 +5,7 @@ This is a simple web app project created to practice DevOps skills and container
 The "welcom" app is a basic HTML and CSS project, with the following files:
 - welcom.html: The main HTML file of the app.
 - style.css: The styling for the app to make it look neat.
+
 This project marks the first step after a break from DevOps, focusing on understanding the basics of version control, containerization, and continuous integration.
 
 # Features
