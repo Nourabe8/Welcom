@@ -3,9 +3,8 @@ This is a simple web app project created to practice DevOps skills and container
 
 # Description
 The "welcom" app is a basic HTML and CSS project, with the following files:
-
-welcom.html: The main HTML file of the app.
-style.css: The styling for the app to make it look neat.
+- welcom.html: The main HTML file of the app.
+- style.css: The styling for the app to make it look neat.
 This project marks the first step after a break from DevOps, focusing on understanding the basics of version control, containerization, and continuous integration.
 
 # Features
@@ -33,12 +32,12 @@ docker run -d -p 8080:80 welcom
 Open your browser and go to `http://localhost:8080` to see the app in action.
 
 # Jenkins Setup
-Create a Jenkins pipeline to automate the building and deployment of the Docker container.
-Ensure the pipeline includes steps to build, test, and deploy the Docker image.
+1- Create a Jenkins pipeline to automate the building and deployment of the Docker container.
+2- Ensure the pipeline includes steps to build, test, and deploy the Docker image.
 # Future Improvements
-Add interactivity with JavaScript.
-Implement a backend using Node.js or another framework.
-Add more complex CI/CD workflows in Jenkins.
+- Add interactivity with JavaScript.
+- Implement a backend using Node.js or another framework.
+- Add more complex CI/CD workflows in Jenkins.
 # License
 This project is licensed under the MIT License.
 
