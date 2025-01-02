@@ -32,8 +32,8 @@ docker run -d -p 8080:80 welcom
 Open your browser and go to `http://localhost:8080` to see the app in action.
 
 # Jenkins Setup
-1- Create a Jenkins pipeline to automate the building and deployment of the Docker container.
-2- Ensure the pipeline includes steps to build, test, and deploy the Docker image.
+1. Create a Jenkins pipeline to automate the building and deployment of the Docker container.
+2. Ensure the pipeline includes steps to build, test, and deploy the Docker image.
 # Future Improvements
 - Add interactivity with JavaScript.
 - Implement a backend using Node.js or another framework.
