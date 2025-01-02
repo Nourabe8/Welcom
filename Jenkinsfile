@@ -8,7 +8,7 @@ pipeline {
     stages {  // Correctly use lowercase 'stages'
         stage('Clone the directory in Jenkins') {
             steps {
-                git credentialsId: '57a1eb60-d717-4aa4-808f-95ccacd58ee6', url: 'https://github.com/Nourabe8/Welcom'
+                git branch: 'main', credentialsId: '57a1eb60-d717-4aa4-808f-95ccacd58ee6', url: 'https://github.com/Nourabe8/Welcom'
             }
         }
 
