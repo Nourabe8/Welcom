@@ -9,14 +9,14 @@ style.css: The styling for the app to make it look neat.
 This project marks the first step after a break from DevOps, focusing on understanding the basics of version control, containerization, and continuous integration.
 
 # Features
-Simple, static web page.
-Basic styling using CSS.
-Ready to be containerized using Docker.
-Set up for CI/CD with Jenkins.
+- Simple, static web page.
+- Basic styling using CSS.
+- Ready to be containerized using Docker.
+- Set up for CI/CD with Jenkins.
 # Prerequisites
-Docker installed on your machine.
-Jenkins setup for CI/CD pipeline.
-GitHub account to access the repository.
+* Docker installed on your machine.
+* Jenkins setup for CI/CD pipeline.
+* GitHub account to access the repository.
 # How to Run
 1- Clone the repository:
 ``` bash
