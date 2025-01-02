@@ -24,12 +24,10 @@ git clone https://github.com/yourusername/welcom.git
 ```
 2- Build the Docker image:
 ``` bash
-Copy code
 docker build -t welcom .
 ```
 3- Run the Docker container:
 ```bash
-Copy code
 docker run -d -p 8080:80 welcom
 ```
 Open your browser and go to http://localhost:8080 to see the app in action.
