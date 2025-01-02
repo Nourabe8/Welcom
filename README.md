@@ -20,9 +20,9 @@ GitHub account to access the repository.
 # How to Run
 Clone the repository:
 
-bash
-Copy code
+''' bash
 git clone https://github.com/yourusername/welcom.git
+'''
 Build the Docker image:
 
 bash
