@@ -5,7 +5,7 @@ FROM nginx:alpine
 # RUN apt-get update  # This is not necessary for Alpine-based images
 
 # Copy the 'welcom.html' and 'style.css' from your local directory to the container
-COPY welcom.html /usr/share/nginx/html/
+COPY welcom.html /usr/share/nginx/html/index.html
 COPY style.css /usr/share/nginx/html/
 
 # Set the working directory (optional in this case, since we're copying files directly to Nginx's default HTML directory)
