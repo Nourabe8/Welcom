@@ -30,7 +30,7 @@ docker build -t welcom .
 ```bash
 docker run -d -p 8080:80 welcom
 ```
-Open your browser and go to http://localhost:8080 to see the app in action.
+Open your browser and go to `http://localhost:8080` to see the app in action.
 
 # Jenkins Setup
 Create a Jenkins pipeline to automate the building and deployment of the Docker container.
